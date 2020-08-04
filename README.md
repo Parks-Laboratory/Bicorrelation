@@ -1,7 +1,7 @@
 ## Adjusting codes
 ### Read  in Data
 1. Give the name of the data file to the variable named option.(option = "FEMALE.txt" in sample codes)
-2. Specify the number of rows contained in the data file.(apoE<-read.table(option,nrows = 23568) in sample codes,change 23568 to the number of rows in your data file)
+2. Specify the number of rows contained in the data file.(apoE<-read.table(option,nrows = 1000) in sample codes,change 1000 to the number of rows in your data file)
 ### Data cleaning
 The data matrix after data cleaning should be a matrix whose column names are gene names and each row represents for observations of one individual over all different genes.(apoE_mat_num in sample codes)
 ### Organize the output
